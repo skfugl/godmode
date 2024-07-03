@@ -1,0 +1,76 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://raw.githubusercontent.com/skfugl/godmode/main/A_beautiful_golf_course_with_vibrant_green_fairway.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header h1 {
+    text-align: center;
+    color: brown;
+    text-shadow: 2px 2px 4px gold;
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: brown;
+}
+
+.slider {
+    position: relative;
+    max-width: 600px;
+    margin: 50px auto;
+    border: 5px solid brown;
+    border-radius: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    overflow: hidden;
+}
+
+.slider-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: brown;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 20px 0;
+}
